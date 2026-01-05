@@ -1,0 +1,120 @@
+name: Arkama-Essentials
+api-version: 1.21
+version: "1.0.0"
+main: fr.gchatain.arkama.essentials.ArkaEssentials
+author: gchatain
+
+commands:
+  hat:
+    description: "Permet de mettre un objet sur la tête du joueur."
+    permission: "arkama-essentials.hat"
+    usage: "§c/hat"
+
+  invsee:
+    description: "Permet de voir l'inventaire d'un joueur."
+    permission: "arkama-essentials.invsee"
+    usage: "§c/invsee [joueur]"
+
+  ec:
+    description: "Permet de voir l'ender chest d'un joueur."
+    permission: "arkama-essentials.ec"
+    usage: "§c/ec [joueur]"
+    aliases: [ enderchest, echest ]
+
+  craft:
+    description: "Permet d'ouvrir la table de craft."
+    permission: "arkama-essentials.craft"
+    usage: "§c/craft"
+
+  feed:
+    description: "Permet de nourrir le joueur."
+    permission: "arkama-essentials.feed"
+    usage: "§c/feed [joueur]"
+
+  heal:
+    description: "Permet de soigner le joueur."
+    permission: "arkama-essentials.heal"
+    usage: "§c/heal [joueur]"
+
+  seen:
+    description: "Permet de voir la dernière connexion d'un joueur."
+    permission: "arkama-essentials.seen"
+    usage: "§c/seen [joueur]"
+
+  ping:
+    description: "Permet de voir le ping du serveur."
+
+  near:
+    description: "Permet de voir les joueurs proches."
+    permission: "arkama-essentials.near"
+    usage: "§c/near [distance]"
+
+  skull:
+    description: "Permet de se donner un crâne de joueur."
+    permission: "arkama-essentials.skull"
+
+  fix:
+    description: "Permet de réparer un objet."
+    permission: "arkama-essentials.fix"
+    usage: "§c/fix [joueur]"
+
+  rl:
+    description: "Permet de recharger le plugin."
+    permission: "arkama-essentials.rl"
+    usage: "§c/rl"
+    aliases: [ reload ]
+
+  explode:
+    description: "Sécurise les explosions."
+    permission: "arkama-essentials.explode"
+
+
+permissions:
+
+  arkama-essentials:
+    description: "Utiliser les commandes d'Arkama Essentials."
+    default: true
+
+  arkama-essentials.hat:
+    description: "Utiliser la commande /hat."
+    default: true
+
+  arkama-essentials.invsee:
+    description: "Utiliser la commande /invsee."
+    default: op
+
+  arkama-essentials.ec:
+    description: "Utiliser la commande /ec."
+    default: op
+
+  arkama-essentials.craft:
+    description: "Utiliser la commande /craft."
+    default: true
+
+  arkama-essentials.feed:
+    description: "Utiliser la commande /feed."
+    default: true
+
+  arkama-essentials.heal:
+    description: "Utiliser la commande /heal."
+    default: true
+
+  arkama-essentials.seen:
+    description: "Utiliser la commande /seen."
+    default: true
+
+  arkama-essentials.top:
+    description: "Utiliser la commande /top."
+    default: true
+
+  arkama-essentials.near:
+    description: "Utiliser la commande /near."
+    default: true
+
+  arkama-essentials.skull:
+    description: "Utiliser la commande /skull."
+    default: true
+
+  arkama-essentials.fix:
+    description: "Utiliser la commande /fix."
+    default: true

@@ -1,0 +1,9 @@
+services:
+  minecraft:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: server-minecraft:dev
+    ports:
+      - 25565:25565
+    container_name: arkama-essentials-dev
